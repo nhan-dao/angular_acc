@@ -10,6 +10,7 @@
 		84CA396718F519500045A83F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84CA396618F519500045A83F /* Foundation.framework */; };
 		84CA396A18F519500045A83F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CA396918F519500045A83F /* main.m */; };
 		84CA396E18F519500045A83F /* angular_acc.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 84CA396D18F519500045A83F /* angular_acc.1 */; };
+		84CA397618F519A50045A83F /* CalculateAngularAcc.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CA397518F519A50045A83F /* CalculateAngularAcc.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		84CA396918F519500045A83F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84CA396C18F519500045A83F /* angular_acc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "angular_acc-Prefix.pch"; sourceTree = "<group>"; };
 		84CA396D18F519500045A83F /* angular_acc.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = angular_acc.1; sourceTree = "<group>"; };
+		84CA397418F519A50045A83F /* CalculateAngularAcc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculateAngularAcc.h; sourceTree = "<group>"; };
+		84CA397518F519A50045A83F /* CalculateAngularAcc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculateAngularAcc.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				84CA396918F519500045A83F /* main.m */,
+				84CA397418F519A50045A83F /* CalculateAngularAcc.h */,
+				84CA397518F519A50045A83F /* CalculateAngularAcc.m */,
 				84CA396D18F519500045A83F /* angular_acc.1 */,
 				84CA396B18F519500045A83F /* Supporting Files */,
 			);
@@ -140,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84CA396A18F519500045A83F /* main.m in Sources */,
+				84CA397618F519A50045A83F /* CalculateAngularAcc.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
